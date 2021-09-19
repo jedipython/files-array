@@ -17175,7 +17175,7 @@ function getConfig(env) {
 
     case 'firebase':
       return {
-        FIREBASE_PROJECT_ID: 'database-e4a34',
+        FIRESTORE_DATABASE_NAME: 'database-e4a34',
         FIRESTORE_COLLECTION_NAME: 'metadata'
       };
 
@@ -54196,6 +54196,7 @@ button.addEventListener('click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/re
 
         case 6:
           d = _context.sent;
+          // Результат выводит в консоль
           console.log(d);
 
         case 8:
@@ -54375,7 +54376,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63940" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63985" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
